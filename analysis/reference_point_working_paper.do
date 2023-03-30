@@ -23,6 +23,9 @@ sum actual_living_space, detail
 /* mean justice ratings in the global rating task (full sample) */
 use "data_full", clear
 
+label define treatment_lb 1 "Need" 2 "NoNeed"
+   label values treatment treatment_lb
+
 by units, sort : ttest justice, by(treatment)
 
 nl (justice = 1 - exp(-({lambda0} * units)^{k0 = 1})) if treatment == 1
