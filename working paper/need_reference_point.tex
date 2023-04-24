@@ -1,0 +1,177 @@
+\documentclass[12pt]{scrartcl}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amstext}
+\usepackage{color}
+\usepackage{dcolumn}
+   \newcolumntype{d}[1]{D{.}{.}{#1}}
+\usepackage{dsfont}
+\usepackage{float}
+\usepackage{geometry}
+   \geometry{verbose,tmargin=1.4in,bmargin=1.4in,lmargin=1.4in,rmargin=1.4in}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+   \urlstyle{same}
+\usepackage{lscape}
+\usepackage[authoryear]{natbib}
+\usepackage{setspace}
+
+\deffootnote{1.5em}{1em}{\makebox[1.5em][l]{\thefootnotemark}}
+   \setlength{\skip\footins}{1.5em}
+   \setlength{\footnotesep}{1em}
+
+\addtokomafont{disposition}{\rmfamily}
+
+\begin{document}
+\thispagestyle{empty}
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\begin{center}
+{\LARGE Thinking About Need}\\\vspace{2ex}
+{\Large A Vignette Experiment}\\\vspace{6ex}
+{\large Alexander Max Bauer,$^a$\footnotemark[1] Adele Diederich,$^b$\\Stefan Traub,$^{c}$ Arne Weiß$^d$}\\\vspace{3ex}
+\textsl{\small $^{a}$Dept. of Philosophy, University of Oldenburg, Oldenburg, Germany}\\\vspace{1ex}
+\textsl{\small $^{b}$Dept. of Psychology \& Methods, Constructor University, Bremen, Germany}\\\vspace{1ex}
+\textsl{\small $^{c}$Dept. of Economics, Helmut-Schmidt-University, Hamburg, Germany}\\\vspace{1ex}
+\textsl{\small $^{d}$Dept. of Economics, University of Alicante, Alicante, Spain}\\\vspace{3ex}
+April 24, 2023
+\end{center}
+
+\vspace{\fill}
+
+\noindent\textbf{Abstract:} We examine the role of need satisfaction in non-comparative justice ratings about endowments with goods. 
+As normative approaches, we discuss utilitarianism, prioritarianism, and sufficientarianism.
+Using a vignette experiment, we show that need increases prioritarianistic and sufficientarianistic justice ratings, which leads to an ethically problematic sigmoid shape of the justice evaluation function.
+\\[2ex]
+\noindent\textbf{Keywords:} Basic Needs, Justice Principles, Prioritarianism, Sufficientarianism, Utilitarianism, Vignette Experiment\\[2ex]
+\textbf{JEL Classification:} I30, D63, D31
+
+\footnotetext[1]{Corresponding author.
+Department of Philosophy, University of Oldenburg, Ammerl{\"a}nder Heerstra{\ss}e 114--118, 26129 Oldenburg, Germany, \href{mailto:alexander.max.bauer@uni-oldenburg.de}{alexander.max.bauer@uni-oldenburg.de}.
+Telephone: +49 (0)441 798 2034.
+Financial support by the German Research Foundation (DFG Grants SI $1731/2-2$, TR $458/6-2$) is gratefully acknowledged.
+We are indebted to the support and input throughout all project phases by Jan Romann, Nils Springhorn, and Mark Siebel.
+We also thank James Konow, Jakob Koscholke, Michael Schippers, Thomas Schramme, and Kai Spiekermann, as well as participants at DFG Research Group 2104 meetings for helpful discussions.}
+\renewcommand{\thefootnote}{\arabic{footnote}}\setcounter{footnote}{0}
+\newpage
+
+
+%%%%%%%%%%%%%%%%
+% INTRODUCTION %
+%%%%%%%%%%%%%%%%
+\section{Introduction}\label{sec:introduction}
+How do laypersons evaluate the justice of personal endowments with goods that satisfy basic needs?
+\cite{miller_principles_1999} emphasizes that needs are not to be confused with wants; they rely on a socially shared notion.
+Need, then, refers to whether someone has \textit{enough} \citep{frankfurt_inequality_2015} to live a \textit{decent life} \citep{miller_principles_1999}.
+The question of whether someone has enough or not points to the \textit{non-comparative} \citep{feinberg_noncomparative_1974} thrust of need as a criterion of justice: It is human suffering due to unfulfilled needs that causes injustice, not how one is treated relative to others.
+This raises the question of how justice is related to need satisfaction, to which the literature offers no precise answer.
+In this paper, we first discuss the non-comparative dimension of need-based justice using three normative approaches: utilitarianism \citep[e.\,g.,][]{bentham_introduction_2009,mill_utilitarianism_1998}, prioritarianism \citep[e.\,g.,][]{parfit_equality_1997}, and sufficientarianism \citep[e.\,g.,][]{frankfurt_equality_1987,crisp_egalitarianism_2003,schramme_is_2006}.
+We then present an empirical investigation of justice ratings of laypersons using a vignette experiment.
+
+In the vignette experiment, we asked subjects to rate different endowments with living space in terms of justice.
+An explicit need threshold was communicated in a need treatment, which was absent in a control treatment.
+Additionally, there were two different ratings tasks.
+In the global rating task, 11 scenarios of endowment with living space had to be rated individually.
+In the relative rating task, pairs of scenarios had to be evaluated in comparison to each other.
+The absolute rating task is comparable in procedure and interpretation to the ``method of constant stimuli'' known from psychometrics.
+We estimate a justice evaluation function (JEF) from the justice ratings of the subjects using a Weibull function \citep{wichmann_psychometric_2001,mortensen_additive_2002}, which describes the probability that subjects evaluate the stimulus as exceeding the comparison stimulus \citep[p.~2503]{treutwein_adaptive_1995}.
+Accordingly, the average justice rating derived from the JEF can be interpreted as the probability that society perceives a given endowment with living space as just.
+
+Vignette experiments have become the de facto methodological standard for empirical justice research because they promise both experimental control about predictor variables (in our case: need satisfaction) and external validity for situations that, for ethical or practical reasons, can not be studied in real-life situations (see \citealp{bardsley_experimental_2009}; for overviews see \citealp{traub_friedman_2005,gaertner_empirical_2012}).
+This clearly applies to research on human needs.
+While this paper is not the first to empirically study the role of needs for justice evaluations (starting with \citealp{yaari_dividing_1984}, for an overview see \citep[see][]{traub_need-based_2020}, we are not aware of any empirical work, nor a conceptual framework for that matter, that can shed light on the precise relationship between need satisfaction and justice ratings.
+
+Our main results are as follows: The analysis of the absolute average justice ratings shows that an exogenous need threshold for endowment with living space leads to a \textit{sigmoid} JEF.
+Below the need threshold, the JEF is convex and justice ratings are lower than without a need threshold.
+If the endowment with living space is at least as high as the need threshold, the JEF is concave and the ratings close to the need threshold are significantly above the ratings without need threshold.
+This rating pattern is confirmed by the analysis of the relative justice ratings.
+The analysis of the individual justice ratings shows that a large proportion of the subjects can be assigned to one of the three justice types: sufficientarianism, prioritarianism, or utilitarianism.
+The treatment with a need threshold significantly shifts justice ratings in favor of sufficientariansm and prioritarianism.
+
+Our vignette experiment, therefore, contributes to answering the question of how laypersons think about need.
+In our setting, where the focus is on the non-comparative dimension of justice ratings, need significantly changes both individual and average justice ratings.
+However, the convexity of the JEF below the need threshold, caused primarily by increases in sufficientarianistic and prioritarianistic justice ratings, also raises ethical problems.
+For example, the impression of greater overall justice may be generated by helping those who have only slightly less than the need threshold than by helping those who have the least.
+
+The remainder of the paper is organized as follows.
+In the next section, we provide a review of the relevant literature.
+In Subsection \ref{sec:need}, we first focus on the concept of need.
+In Subsection \ref{sec:principles}, we relate need to various non-comparative principles of justice.
+The design of our vignette experiment is presented in Section \ref{sec:experiment}.
+In Subsection \ref{sec:treatments}, we begin by explaining the subjects' decision task.
+Subsection \ref{sec:remarks} classifies our approach methodologically.
+In the third subsection, we formulate expectations for the subjects' decision behavior.
+Subsection \ref{sec:procedure} contains details on the execution of the experiment.
+The results of the experiment are presented in Section \ref{sec:results}.
+We start in Subsection \ref{sec:global} with the mean justice ratings in the global rating task.
+Subsection \ref{sec:relative} shows the mean justice ratings in the relative rating task.
+The individual justice ratings are analyzed in Subsection \ref{sec:individual}.
+The paper ends with a summary and discussion of the results in Section \ref{sec:conclusion}.
+
+
+%%%%%%%%%%%%%%
+% LITERATURE %
+%%%%%%%%%%%%%%
+\section{Literature Review}\label{sec:background}
+
+
+%%%%%%%%
+% NEED %
+%%%%%%%%
+\subsection{The Concept of Need}\label{sec:need}
+Needs influence our thinking in many areas.
+Take, for example, social policy.
+Here, one might think of minimum wages or---especially---of \textit{means-tested benefits}, which are an essential element of the liberal (i.\,e., mostly Anglo-Saxon) ``World of Welfare Capitalism'' \citep{esping-andersen_three_1990}.
+Means-tested benefits stand in the tradition of the ``poor laws'' that differentiated between deserving and undeserving poor.
+This distinction---in itself already a separation between the needy and the not-needy---lives on, for example, in the United States welfare system.
+Here, only those who fulfill certain criteria, such as the presence of a disability or a pregnancy, are eligible for benefits from the governmental health program ``Medicaid''---but only if they also have an insufficient income under a poverty threshold which was initially defined by congress as a triple of the amount needed for basic nutrition in the year 1963 and is adjusted for inflation annually.
+This poverty threshold can be seen as a collectively determined concept of basic need, which serves as a guideline for social policy.
+
+This is also the case for the ``applicable amount'' defined by the government of the United Kingdom, which was (and still is, in the case of the ``Universal Credit'' program) the reference point for the government's old welfare programs.
+In conservative, rather contribution-based welfare states like Germany, need also plays a crucial role in the provision of welfare.
+The means-tested and workfare-based unemployment allowance ``Arbeitslosengeld II'' (replaced by the ``B{\"u}rgergeld'' as of 2023) defines a household consisting of family members or mutually dependent residents explicitly as a ``Bedarfs\-gemeinschaft''---a companionship with a shared need.
+This need is defined following a statistically assembled consumer basket and adjusted annually following the development of prices and wages.
+In like manner, the ``BAf{\"o}G'' (``Federal Law on Support in Education'') defines how much students need for their livelihood.
+Corresponding to the central role of the family in the conservative welfare state and its principle of subsidiarity, the student's parents are primarily responsible for providing the student's livelihood.
+Only if their income is insufficient will the government fill the resulting gap by granting benefits that consist of equal shares of a grant and an interest-free loan.
+
+The concept of need can also be found when it comes to the assessment of poverty.
+Besides the measures of relative and absolute poverty, another poverty indicator that strongly corresponds with the idea of need is the concept of ``material deprivation''.
+Here, sets of items are used to evaluate whether an individual can be considered ``materially deprived''.
+Those sets vary but include, in many cases, basic needs like the ``ability to adequately heat the dwelling'', the ``ability to have a healthy diet'', the ``ability to clothe properly'', or ``access to health care'' \citep[p.~37]{boarini_measures_2006}.
+Needs, therefore, do not only play a role in the formulation of policies but also when it comes to assessing whether there is a necessity for political intervention or when it comes to evaluating if the actions taken were successful.
+
+Besides these practical and evaluative perspectives, need has---as \cite{bauer_need_2022} have pointed out---also been of importance in political theory \citep{dean_translation_2013,doyal_theory_1984,nussbaum_human_1992,weale_political_1984}, has been suggested by many as a fundamental cornerstone for human rights \citep[e.\,g.,][]{brock_needs_2005,gasper_needs_2005,renzo_human_2015}, and has also gained traction in positive justice research.
+While early empirical research on distributive justice attitudes in the 1960s and 1970s focused on \textit{equity theory}, this focus changed during the 1970s and 1980s with, for example, \cite{deutsch_equity_1975} arguing that such a singular approach confounds distinct allocation principles.
+Instead, he suggested studying equity, equality, and need as different principles.
+In a similar manner, \cite{schwinger_just_1980} suggested contribution, equality, and need, \cite{wagstaff_equity_1994} equity, equality, and need, and \cite{konow_fair_2001} equity, efficiency, and need.
+As \cite{konow_is_2009} notes, empirical investigations increasingly find preferences for unequal distributions, giving room for principles other than equality.
+Concerning need, it is notable that people were found to prefer distributions that comply with securing floor levels \citep[e.\,g.][]{ahlert_thresholds_2012,frohlich_choosing_1992,frohlich_choices_1987}.
+
+But, after all, what \textit{is} a need?
+As \cite{bauer_need_2022} have summarized, a need can be defined as a necessity of a good which is required by some person to avoid being harmed.
+Such needs can be biological (e.\,g., the need for hydration or nutrition) or social (as in the famous example of the linen shirt by \citealt{smith_wealth_1979}).
+Needs are not to be confused with wants; they rely on a socially shared notion \citep{miller_principles_1999}.
+An individual may have such a strong preference for eating bluefin tuna that she feels pain whenever it is not part of her menu.
+For this want to become a need, however, others must \textit{acknowledge} that eating bluefin tuna is necessary for her not to be harmed (which in this case seems fairly unlikely).
+As an inter-subjectively acknowledged threshold, needs provide a fundamentally different basis of social justice than other criteria, such as equality, equity, or the Rawlsian maximin principle.
+
+What sets the need criterion apart from the latter is its defining question: Do people have enough \citep{frankfurt_inequality_2015} to lead a minimally decent life \citep{miller_principles_1999}?
+This question shows the \textit{non-comparative} \citep{feinberg_noncomparative_1974} thrust of need-based justice: It is, first of all, human suffering due to unfulfilled needs that causes injustice, not how one is treated relative to others.
+This raises the question of how justice is related to need satisfaction, to which the literature offers no precise answer.
+
+The main reason for this gap might lie in the focus of many accounts of social justice on the \textit{comparative} dimension of justice, that is, how one person's due is related to how much other members of society receive.
+This is clearly an important endeavor, and a focus on need does not make it obsolete.\footnote{The comparative dimension is always present when members of society differ in important aspects and need considerations stop carrying much weight when everyone's needs are fulfilled.}
+However, there seems to have been little progress in reaching common principles of comparative justice accepted by involved parties with their differing interests and their selfishly biased perceptions.
+
+Seeing justice through the lens of need satisfaction, however partial that perspective may be, might have a vital upshot: Since need thresholds are based on a shared understanding within society, need-based justice may have the chance to reach a consensus, even among involved parties, that harm should be avoided, regardless of a suffering person's desert, status, or responsibility.
+The relative silence in the literature on the relationship between need satisfaction and justice is therefore an important gap: If all we can say is that unnecessary suffering is unjust, how can we, as theorists or policy-makers, differentiate between situations with \textit{different levels of suffering} or decide between situations that involve trade-offs between members of society?
+
+In this paper, we focus solely on the non-comparative dimension of justice, hitherto largely neglected in both the empirical and the normative literature.\footnote{A comparative measure of need-based justice, which is based on the inequality of unsatisfied need, was developed by \citet{miller_principles_1999}. For a critical discussion, see \citet{siebel_need_2020}. For a more recent comparative measure of need-based justice, see \citet{springhorn_measurement_2022}.}
+Against this background, we will present empirical data based on evaluations of subjects acting as \textit{impartial spectators} in a vignette experiment.
+As many have argued (see, e.\,g., \citealp{konow_which_2003}, and \citealp{miller_distributive_2017}), the impartial views of real people are a crucial foundation for political and normative theory.
+Asking laypersons helps the theorist to go beyond and possibly question her own pre-theoretical intuitions.
+Not least, for a theory of justice to be capable of reaching a consensus, it has to be accepted by non-experts \citep[also see][]{bauer_philosophie_2019,bauer_empirical_2020}.
+
+\end{document}
