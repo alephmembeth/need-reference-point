@@ -332,7 +332,7 @@ label define justice_type_finegrained_lb 1 "Hump" 2 "Binary" 3 "Flat At/Above" 4
 preserve
    collapse (first) justice_type_finegrained treatment, by(subject)
    
-   tabulate justice_type_finegrained treatment
+   tabulate justice_type_finegrained treatment, cell
 restore
 
 preserve
