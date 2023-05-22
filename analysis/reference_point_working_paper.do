@@ -224,7 +224,6 @@ gen justice_type_finegrained = .
       subject == 11395 | ///
       subject == 12152 | ///
       subject == 12277 | ///
-      subject == 41170 | ///
       subject == 41171 | ///
       subject == 41180 | ///
       subject == 41191 | ///
@@ -233,7 +232,6 @@ gen justice_type_finegrained = .
    replace justice_type_finegrained = 3 if ///
       subject == 11156 | ///
       subject == 11282 | ///
-      subject == 11283 | ///
       subject == 12158 | ///
       subject == 12276 | ///
       subject == 12380 | ///
@@ -252,7 +250,6 @@ gen justice_type_finegrained = .
       subject == 12154 | ///
       subject == 12155 | ///
       subject == 12156 | ///
-      subject == 12159 | ///
       subject == 12162 | ///
       subject == 12381 | ///
       subject == 12384 | ///
@@ -269,6 +266,7 @@ gen justice_type_finegrained = .
       subject == 11163 | ///
       subject == 11164 | ///
       subject == 11281 | ///
+      subject == 11283 | ///
       subject == 11388 | ///
       subject == 11389 | ///
       subject == 11391 | ///
@@ -316,6 +314,8 @@ gen justice_type_finegrained = .
       subject == 42294 | ///
       subject == 42296
    replace justice_type_finegrained = 6 if ///
+      subject == 12159 | ///
+      subject == 41170 | ///
       subject == 41186 | ///
       subject == 41190 | ///
       subject == 41194 | ///
