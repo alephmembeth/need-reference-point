@@ -355,9 +355,9 @@ restore
 preserve
    keep if treatment == 2
 
-  egen newsub = group(subject)
-  drop subject
-  rename newsub subject
+   egen newsub = group(subject)
+   drop subject
+   rename newsub subject
 
    twoway (connected justice units, mcolor(black) lpattern(solid)), ///
       by(justice_type_finegrained subject, note("") graphregion(color(white)) cols(7)) ///
