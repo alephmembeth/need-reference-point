@@ -245,45 +245,45 @@ forvalues i = 1(1)52 {
       twoway (function y = 1 - exp(-(lambda_low_b * x)^(k_low_b)), range(0 1000) lcolor(black) lpattern(solid)) ///
              (function y = exp(-(lambda_high_b * x)^(k_high_b)), range(1000 2000) lcolor(black) lpattern(solid)) ///
              (scatter justice units if subject==`i', mcolor(black) msize(large) lcolor(black) lpattern(dash)), ///
-             note("") ///
              graphregion(color(white)) ///
-             xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
-             xticks(0(200)2000) ///
-             xline(1000, lcolor(gs8) lpattern(solid)) ///
-             ylabels(0(0.5)1, labsize(vlarge)) ///
-             ytick(0(0.1)1) ///
              legend(off) ///
+             note("") ///
              title("Hump-Shaped, `i'", size(vhuge)) ///
+             xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
+             xline(1000, lcolor(gs8) lpattern(solid)) ///
+             xticks(0(200)2000) ///
+             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
    if inlist(`i', 20, 27, 41) {
       twoway (function y = 0, range(0 1000) lcolor(black) lpattern(solid)) ///
              (function y = 1, range(1000 2000) lcolor(black) lpattern(solid)) ///
              (scatter justice units if subject == `i', mcolor(black) msize(large) lcolor(black) lpattern(dash)), ///
-             note("") ///
              graphregion(color(white)) ///
-             xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
-             xticks(0(200)2000) ///
-             xline(1000, lcolor(gs8) lpattern(solid)) ///
-             ylabels(0(0.5)1, labsize(vlarge)) ///
-             ytick(0(0.1)1) ///
              legend(off) ///
+             note("") ///
              title("Binary, `i'", size(vhuge)) ///
+             xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
+             xline(1000, lcolor(gs8) lpattern(solid)) ///
+             xticks(0(200)2000) ///
+             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
    if inlist(`i', 28) {
       twoway (function y = 0.5, range(0 1000) lcolor(black) lpattern(solid)) ///
              (function y = 1, range(1000 2000) lcolor(black) lpattern(solid)) ///
              (scatter justice units if subject == `i', mcolor(black) msize(large) lcolor(black) lpattern(dash)), ///
-             note("") ///
              graphregion(color(white)) ///
-             xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
-             xticks(0(200)2000) ///
-             xline(1000, lcolor(gs8) lpattern(solid)) ///
-             ylabels(0(0.5)1, labsize(vlarge)) ///
-             ytick(0(0.1)1) ///
              legend(off) ///
+             note("") ///
              title("Binary, `i'", size(vhuge)) ///
+             xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
+             xline(1000, lcolor(gs8) lpattern(solid)) ///
+             xticks(0(200)2000) ///
+             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
    if inlist(`i', 4, 6, 7, 8, 9, 16, 18, 21, 22, 24, 34, 38, 39, 43, 46, 49, 52) {
@@ -293,15 +293,15 @@ forvalues i = 1(1)52 {
          scalar k_b = el(r(table), 1, 2)
       twoway (function y = 1 - exp(-(lambda_b * x)^(k_b)), range(0 2000) lcolor(black) lpattern(solid)) ///
              (scatter justice units if subject == `i', mcolor(black) msize(large) lcolor(black) lpattern(dash)), ///
-             note("") ///
              graphregion(color(white)) ///
-             xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
-             xticks(0(200)2000) ///
-             xline(1000, lcolor(gs8) lpattern(solid)) ///
-             ylabels(0(0.5)1, labsize(vlarge)) ///
-             ytick(0(0.1)1) ///
              legend(off) ///
+             note("") ///
              title("Increasing, `i'", size(vhuge)) ///
+             xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
+             xline(1000, lcolor(gs8) lpattern(solid)) ///
+             xticks(0(200)2000) ///
+             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
    if inlist(`i', 1, 17, 32, 40, 44, 47, 51) {
@@ -312,15 +312,15 @@ forvalues i = 1(1)52 {
       twoway (function y = 1 - exp(-(lambda_b * x)^(k_b)), range(0 1000) lcolor(black) lpattern(solid)) ///
              (function y = 1, range(1000 2000) lcolor(black) lpattern(solid)) ///
              (scatter justice units if subject == `i', mcolor(black) msize(large) lcolor(black) lpattern(dash)), ///
-             note("") ///
              graphregion(color(white)) ///
-             xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
-             xticks(0(200)2000) ///
-             xline(1000, lcolor(gs8) lpattern(solid)) ///
-             ylabels(0(0.5)1, labsize(vlarge)) ///
-             ytick(0(0.1)1) ///
              legend(off) ///
+             note("") ///
              title("Flat At/Above, `i'", size(vhuge)) ///
+             xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
+             xline(1000, lcolor(gs8) lpattern(solid)) ///
+             xticks(0(200)2000) ///
+             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
    if inlist(`i', 3, 5, 10, 11, 12, 13, 23 ,25, 29, 30, 31, 35, 45, 48, 50) {
@@ -331,15 +331,15 @@ forvalues i = 1(1)52 {
       twoway (function y = 1 - exp(-(lambda_b * x)^(k_b)), range(1000 2000) lcolor(black) lpattern(solid)) ///
              (function y = 0, range(0 1000) lcolor(black) lpattern(solid)) ///
              (scatter justice units if subject == `i', mcolor(black) msize(large) lcolor(black) lpattern(dash)), ///
-             note("") ///
              graphregion(color(white)) ///
-             xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
-             xticks(0(200)2000) ///
-             xline(1000, lcolor(gs8) lpattern(solid)) ///
-             ylabels(0(0.5)1, labsize(vlarge)) ///
-             ytick(0(0.1)1) ///
              legend(off) ///
+             note("") ///
              title("Zero Below, `i'", size(vhuge)) ///
+             xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
+             xline(1000, lcolor(gs8) lpattern(solid)) ///
+             xticks(0(200)2000) ///
+             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
    if inlist(`i', 33) {
@@ -349,15 +349,15 @@ forvalues i = 1(1)52 {
          scalar k_b = el(r(table), 1, 2)
       twoway (function y = 1 - exp(-(lambda_b * x)^(k_b)), range(0000 2000) lcolor(black) lpattern(solid)) ///
              (scatter justice units if subject == `i', mcolor(black) msize(large) lcolor(black) lpattern(dash)), ///
-             note("") ///
              graphregion(color(white)) ///
-             xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
-             xticks(0(200)2000) ///
-             xline(1000, lcolor(gs8) lpattern(solid)) ///
-             ylabels(0(0.5)1, labsize(vlarge)) ///
-             ytick(0(0.1)1) ///
              legend(off) ///
+             note("") ///
              title("Other, `i'", size(vhuge)) ///
+             xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
+             xline(1000, lcolor(gs8) lpattern(solid)) ///
+             xticks(0(200)2000) ///
+             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
 }
