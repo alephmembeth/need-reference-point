@@ -252,7 +252,7 @@ forvalues i = 1(1)52 {
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xline(1000, lcolor(gs8) lpattern(solid)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -267,7 +267,7 @@ forvalues i = 1(1)52 {
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xline(1000, lcolor(gs8) lpattern(solid)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -282,7 +282,7 @@ forvalues i = 1(1)52 {
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xline(1000, lcolor(gs8) lpattern(solid)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -300,7 +300,7 @@ forvalues i = 1(1)52 {
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xline(1000, lcolor(gs8) lpattern(solid)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -319,7 +319,7 @@ forvalues i = 1(1)52 {
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xline(1000, lcolor(gs8) lpattern(solid)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -338,7 +338,7 @@ forvalues i = 1(1)52 {
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xline(1000, lcolor(gs8) lpattern(solid)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -356,7 +356,7 @@ forvalues i = 1(1)52 {
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xline(1000, lcolor(gs8) lpattern(solid)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -461,7 +461,7 @@ forvalues i = 1(1)57 {
              title("Hump-Shaped, `i'", size(vhuge)) ///
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -475,7 +475,7 @@ forvalues i = 1(1)57 {
              title("Binary, `i'", size(vhuge)) ///
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -489,7 +489,7 @@ forvalues i = 1(1)57 {
              title("Binary, `i'", size(vhuge)) ///
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -503,7 +503,7 @@ forvalues i = 1(1)57 {
              title("Binary, `i'", size(vhuge)) ///
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -520,7 +520,7 @@ forvalues i = 1(1)57 {
              title("Increasing, `i'", size(vhuge)) ///
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -538,7 +538,7 @@ forvalues i = 1(1)57 {
              title("Flat At/Above, `i'", size(vhuge)) ///
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -556,7 +556,7 @@ forvalues i = 1(1)57 {
              title("Zero Below, `i'", size(vhuge)) ///
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -574,7 +574,7 @@ forvalues i = 1(1)57 {
              title("Zero Below, `i'", size(vhuge)) ///
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -587,7 +587,7 @@ forvalues i = 1(1)57 {
              title("Other, `i'", size(vhuge)) ///
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -600,7 +600,7 @@ forvalues i = 1(1)57 {
              title("Other, `i'", size(vhuge)) ///
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -612,7 +612,7 @@ forvalues i = 1(1)57 {
              title("Other, `i'", size(vhuge)) ///
              xlabel(0 1000 2000, labsize(vlarge) angle(forty_five)) ///
              xticks(0(200)2000) ///
-             ylabels(0(0.5)1, labsize(vlarge) angle(0)) ///
+             ylabel(0(0.5)1, labsize(vlarge) angle(0)) ///
              ytick(0(0.1)1) ///
              saving(figure_tmp_`i', replace)
    }
@@ -744,17 +744,16 @@ twoway (function y = 1 - exp(-((lambda1_below) * x)^(k1_below)) if treatment == 
        (scatter meanjustice units if treatment == 1, mcolor(black) msize(medium) msymbol(diamond)) ///
        (rcap hi_j low_j units if treatment == 1, lcolor(black)) ///
        (scatter meanjustice units if treatment == 2, mcolor(gs8) msize(medium) msymbol(square)), ///
-       title("Strict Sufficientarians") ///
-       ytitle("Justice Rating") ///
-       xtitle("Units of Living Space") ///
-       text(0.95 1000 "Need Threshold", place(l)) ///
-       xline(1000, lcolor(gs8) lpattern(dash)) ///
-       xlabel(0 1000 2000) ///
-       xticks(0(200)2000) ///
-       legend(pos(2) ring(0) col(1) order(5 7) ///
-       label(5 "Need (n = 8)") ///
-       label(7 "NoNeed (n = 2)")) ///
        graphregion(color(white)) ///
+       legend(pos(2) ring(0) col(1) order(5 7) label(5 "Need (n = 8)") label(7 "NoNeed (n = 2)")) ///
+       text(0.95 1000 "Need Threshold", place(l)) ///
+       title("Strict Sufficientarians") ///
+       xlabel(0 1000 2000) ///
+       xline(1000, lcolor(gs8) lpattern(dash)) ///
+       xticks(0(200)2000) ///
+       xtitle("Units of Living Space") ///
+       ylabel(, angle(0)) ///
+       ytitle("Justice Rating") ///
        saving(figure_tmp_strict, replace)
 graph export figure_tmp_strict.pdf, replace
 
@@ -804,17 +803,16 @@ twoway (function y = 1 if treatment == 1, range(1000 2000) lcolor(black) lpatter
        (rcap hi_j low_j units if treatment == 1, lcolor(black)) ///
        (scatter meanjustice units if treatment == 2, mcolor(gs8) msize(medium) msymbol(square)) ///
        (rcap hi_j low_j units if treatment == 2, lcolor(gs8)), ///
-       title("Quantitative Sufficientarians") ///
-       ytitle("Justice Rating") ///
-       xtitle("Units of Living Space") ///
-       text(0.95 1000 "Need Threshold", place(l)) ///
-       xline(1000, lcolor(gs8) lpattern(dash)) ///
-       xlabel(0 1000 2000) ///
-       xticks(0(200)2000) ///
-       legend(pos(5) ring(0) col(1) order(5 7) ///
-       label(5 "Need (n = 7)") ///
-       label(7 "NoNeed (n = 1)")) ///
        graphregion(color(white)) ///
+       legend(pos(5) ring(0) col(1) order(5 7) label(5 "Need (n = 7)") label(7 "NoNeed (n = 1)")) ///
+       text(0.95 1000 "Need Threshold", place(l)) ///
+       title("Quantitative Sufficientarians") ///
+       xlabel(0 1000 2000) ///
+       xline(1000, lcolor(gs8) lpattern(dash)) ///
+       xticks(0(200)2000) ///
+       xtitle("Units of Living Space") ///
+       ylabel(, angle(0)) ///
+       ytitle("Justice Rating") ///
        saving(figure_tmp_quanti, replace)
 graph export figure_tmp_quanti.pdf, replace
 
@@ -872,17 +870,16 @@ twoway (function y = 0 if treatment == 1, range(0 1000) lcolor(black) lpattern(s
        (rcap hi_j low_j units if treatment == 1, lcolor(black)) ///
        (scatter meanjustice units if treatment == 2, mcolor(gs8) msize(medium) msymbol(square)) ///
        (rcap hi_j low_j units if treatment == 2, lcolor(gs8)), ///
-       title("Prioritarians") ///
-       ytitle("Justice Rating") ///
-       xtitle("Units of Living Space") ///
-       text(0.95 1000 "Need Threshold", place(l)) ///
-       xline(1000, lcolor(gs8) lpattern(dash)) ///
-       xlabel(0 1000 2000) ///
-       xticks(0(200)2000) ///
-       legend(pos(5) ring(0) col(1) order(5 7) ///
-       label(5 "Need (n = 15)") ///
-       label(7 "NoNeed (n = 5)")) ///
        graphregion(color(white)) ///
+       legend(pos(5) ring(0) col(1) order(5 7) label(5 "Need (n = 15)") label(7 "NoNeed (n = 5)")) ///
+       text(0.95 1000 "Need Threshold", place(l)) ///
+       title("Prioritarians") ///
+       xlabel(0 1000 2000) ///
+       xline(1000, lcolor(gs8) lpattern(dash)) ///
+       xticks(0(200)2000) ///
+       xtitle("Units of Living Space") ///
+       ylabel(, angle(0)) ///
+       ytitle("Justice Rating") ///
        saving(figure_tmp_priori, replace)
 graph export figure_tmp_priori.pdf, replace
 
@@ -975,17 +972,16 @@ twoway (function y = 1 - exp(-((lambda1) * x)^(k1)) if treatment == 1, range(0 2
        (rcap hi_j low_j units if treatment == 1, lcolor(black)) ///
        (scatter meanjustice units if treatment == 2, mcolor(gs8) msize(medium) msymbol(square)) ///
        (rcap hi_j low_j units if treatment == 2, lcolor(gs8)), ///
-       title("Utilitarians") ///
-       ytitle("Justice Rating") ///
-       xtitle("Units of Living Space") ///
-       text(0.95 1000 "Need Threshold", place(l)) ///
-       xline(1000, lcolor(gs8) lpattern(dash)) ///
-       xlabel(0 1000 2000) ///
-       xticks(0(200)2000) ///
-       legend(pos(5) ring(0) col(1) order(3 5) ///
-       label(3 "Need (n = 17)") ///
-       label(5 "NoNeed (n = 36)")) ///
        graphregion(color(white)) ///
+       legend(pos(5) ring(0) col(1) order(3 5) label(3 "Need (n = 17)") label(5 "NoNeed (n = 36)")) ///
+       text(0.95 1000 "Need Threshold", place(l)) ///
+       title("Utilitarians") ///
+       xlabel(0 1000 2000) ///
+       xline(1000, lcolor(gs8) lpattern(dash)) ///
+       xticks(0(200)2000) ///
+       xtitle("Units of Living Space") ///
+       ylabel(, angle(0)) ///
+       ytitle("Justice Rating") ///
        saving(figure_tmp_utilit, replace)
 graph export figure_tmp_utilit.pdf, replace
 
@@ -1060,13 +1056,14 @@ twoway (function y = 1 - exp(-((lambda1_0) * x)^(k1_0)), range(0 1000) lcolor(bl
        (rcap hi_j low_j units if treatment == 1, lcolor(black)) ///
        (scatter meanjustice units if treatment == 2, mcolor(gs8) msize(medium) msymbol(square)) ///
        (rcap hi_j low_j units if treatment == 2, lcolor(gs8)), ///
-       title("") ///
-       xtitle("Units of Living Space") ///
-       xline(1000, lcolor(gs8) lpattern(dash)) ///
-       ytitle("Justice Rating") ///
-       text(0.95 1000 "Need Threshold", place(l)) ///
-       legend(pos(5) ring(0) col(1) order(5 7) label(5 "Need") label(7 "NoNeed")) ///
        graphregion(color(white)) ///
+       legend(pos(5) ring(0) col(1) order(5 7) label(5 "Need") label(7 "NoNeed")) ///
+       text(0.95 1000 "Need Threshold", place(l)) ///
+       title("") ///
+       xline(1000, lcolor(gs8) lpattern(dash)) ///
+       xtitle("Units of Living Space") ///
+       ylabel(, angle(0)) ///
+       ytitle("Justice Rating") ///
        saving(figure_1, replace)
 graph export figure_8.pdf, replace
 
@@ -1099,14 +1096,15 @@ twoway (rcap hi_j low_j units if treatment == 1, lcolor(black)) ///
        (rcap hi_j low_j units if treatment == 2, lcolor(gs8)) ///
        (connected meanjustice units if treatment == 1, lcolor(black) lpattern(solid) mcolor(black) msize(medium) msymbol(diamond)) ///
        (connected meanjustice units if treatment == 2, lcolor(gs8) lpattern(dash) mcolor(gs8) msize(medium) msymbol(square)), ///
+       graphregion(color(white)) ///
+       legend(pos(5) ring(0) col(1) order(3 4) label(3 "Need") label(4 "NoNeed")) ///
+       text(0.5 800 "Need Threshold", place(l)) ///
        title("") ///
-       xtitle("Units of Living Space") ///
        xlabel(0 "(0,200)" 200 "(200,400)" 400 "(400,600)" 600 "(600,800)" 800 "(800,1000)" 1000 "(1000,1200)" 1200 "(1200,1400)" 1400 "(1400,1600)" 1600 "(1600,1800)" 1800 "(1800,2000)", labsize(small) angle(forty_five)) ///
        xline(800, lcolor(gs8) lpattern(dash)) ///
+       xtitle("Units of Living Space") ///
+       ylabel(, angle(0)) ///
        ytitle("Justice Rating") ///
-       text(0.5 800 "Need Threshold", place(l)) ///
-       legend(pos(5) ring(0) col(1) order(3 4) label(3 "Need") label(4 "NoNeed")) ///
-       graphregion(color(white)) ///
        saving(figure_2, replace)
 graph export figure_9.pdf, replace
 
@@ -1170,13 +1168,14 @@ twoway (function y = 1 - exp(-((lambda1_0) * x)^(k1_0)), range(0 1000) lcolor(bl
        (rcap hi_j low_j units if treatment == 1, lcolor(black)) ///
        (scatter meanjustice units if treatment == 2, mcolor(gs8) msize(medium) msymbol(square)) ///
        (rcap hi_j low_j units if treatment == 2, lcolor(gs8)), ///
-       title("") ///
-       xtitle("Units of Living Space") ///
-       xline(1000, lcolor(gs8) lpattern(dash)) ///
-       ytitle("Justice Rating") ///
-       text(0.95 1000 "Need Threshold", place(l)) ///
-       legend(pos(5) ring(0) col(1) order(5 7) label(5 "Need") label(7 "NoNeed")) ///
        graphregion(color(white)) ///
+       legend(pos(5) ring(0) col(1) order(5 7) label(5 "Need") label(7 "NoNeed")) ///
+       text(0.95 1000 "Need Threshold", place(l)) ///
+       title("") ///
+       xline(1000, lcolor(gs8) lpattern(dash)) ///
+       xtitle("Units of Living Space") ///
+       ylabel(, angle(0)) ///
+       ytitle("Justice Rating") ///
        saving(figure_5, replace)
 graph export figure_12.pdf, replace
 
@@ -1206,14 +1205,15 @@ twoway (rcap hi_j low_j units if treatment == 1, lcolor(black)) ///
        (rcap hi_j low_j units if treatment == 2, lcolor(gs8)) ///
        (connected meanjustice units if treatment == 1, lcolor(black) lpattern(solid) mcolor(black) msize(medium) msymbol(diamond)) ///
        (connected meanjustice units if treatment == 2, lcolor(gs8) lpattern(dash) mcolor(gs8) msize(medium) msymbol(square)), ///
+       graphregion(color(white)) ///
+       legend(pos(5) ring(0) col(1) order(3 4) label(3 "Need") label(4 "NoNeed")) ///
+       text(0.5 800 "Need Threshold", place(l)) ///
        title("") ///
-       xtitle("Units of Living Space") ///
        xlabel(0 "(0,200)" 200 "(200,400)" 400 "(400,600)" 600 "(600,800)" 800 "(800,1000)" 1000 "(1000,1200)" 1200 "(1200,1400)" 1400 "(1400,1600)" 1600 "(1600,1800)" 1800 "(1800,2000)", labsize(small) angle(forty_five)) ///
        xline(800, lcolor(gs8) lpattern(dash)) ///
+       xtitle("Units of Living Space") ///
+       ylabel(, angle(0)) ///
        ytitle("Justice Rating") ///
-       text(0.5 800 "Need Threshold", place(l)) ///
-       legend(pos(5) ring(0) col(1) order(3 4) label(3 "Need") label(4 "NoNeed")) ///
-       graphregion(color(white)) ///
        saving(figure_6, replace)
 graph export figure_13.pdf, replace
 
