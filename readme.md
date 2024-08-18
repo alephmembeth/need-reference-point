@@ -2,6 +2,7 @@
 
 This is a repository for the paper [“When the Poorest Are Neglected”](https://dx.doi.org/10.2139/ssrn.4503209) by Adele Diederich, Stefan Traub, Arne Robert Weiss, and me.[^1]
 
+– A preprint will be made available in `/preprint`.
 - The _SSRN Working Paper_ is available in `/working paper`.
 - Data can be found in `/analysis`, along with do files for analysis with Stata (version 14.2 and 15.1).
 
