@@ -1,4 +1,4 @@
-# When the Poorest Are Neglected
+# Thinking About Need
 
 This is a repository for the paper [“When the Poorest Are Neglected”](https://dx.doi.org/10.2139/ssrn.4503209) by Adele Diederich, Stefan Traub, Arne Robert Weiss, and me.[^1]
 
