@@ -946,7 +946,7 @@ by units, sort : ttest justice, by(treatment)
 by units, sort : ranksum justice, by(treatment)
 
 gen d1000 = (units >= 1000)
-gen dt2 = (treatment == 4)
+gen dt2 = (treatment == 2)
 
 nl (justice = 1 - exp(-(({lambda0}) * units)^({k0 = 1}))) if treatment == 1
 nl (justice = 1 - exp(-(({lambda0} + {lambda1 = 0} * d1000) * units)^({k0 = 1} + {k1 = 0} * d1000))) if treatment == 1
