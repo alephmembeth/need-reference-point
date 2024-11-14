@@ -383,7 +383,7 @@ graph combine ///
    figure_tmp_47.gph ///
    figure_tmp_51.gph, ///
    ycommon cols(6) graphregion(color(white)) altshrink xsize(9.45) ysize(6.29)
-graph export figure_1.pdf, replace
+graph export figure_2.pdf, replace
 
 graph combine ///
    figure_tmp_3.gph ///
@@ -402,7 +402,7 @@ graph combine ///
    figure_tmp_48.gph ///
    figure_tmp_50.gph, ///
    ycommon cols(6) graphregion(color(white)) altshrink xsize(9.45) ysize(4.72)
-graph export figure_2.pdf, replace
+graph export figure_3.pdf, replace
 
 graph combine ///
    figure_tmp_4.gph ///
@@ -423,12 +423,12 @@ graph combine ///
    figure_tmp_49.gph ///
    figure_tmp_52.gph, ///
    ycommon cols(6) graphregion(color(white)) altshrink xsize(9.45) ysize(4.72)
-graph export figure_3.pdf, replace
+graph export figure_4.pdf, replace
 
 graph combine ///
    figure_tmp_33.gph, ///
    ycommon cols(1) graphregion(color(white)) altshrink xsize(1.57) ysize(1.57)
-graph export figure_10.pdf, replace
+graph export figure_11.pdf, replace
 
 
 /* individual classification by regression for treatment 2 */
@@ -656,7 +656,7 @@ graph combine ///
    figure_tmp_55.gph ///
    figure_tmp_56.gph, ///
    ycommon cols(6) graphregion(color(white)) altshrink xsize(9.45) ysize(9.45)
-graph export figure_4.pdf, replace
+graph export figure_5.pdf, replace
 
 graph combine ///
    figure_tmp_10.gph ///
@@ -668,7 +668,7 @@ graph combine ///
    figure_tmp_42.gph ///
    figure_tmp_12.gph, ///
    ycommon cols(6) graphregion(color(white)) altshrink xsize(9.45) ysize(3.15)
-graph export figure_5.pdf, replace
+graph export figure_6.pdf, replace
 
 graph combine ///
    figure_tmp_3.gph ///
@@ -677,7 +677,7 @@ graph combine ///
    figure_tmp_20.gph ///
    figure_tmp_50.gph, ///
    ycommon cols(5) graphregion(color(white)) altshrink xsize(7.87) ysize(1.57) 
-graph export figure_6.pdf, replace
+graph export figure_7.pdf, replace
 
 graph combine ///
    figure_tmp_4.gph ///
@@ -689,7 +689,7 @@ graph combine ///
    figure_tmp_51.gph ///
    figure_tmp_57.gph, ///
    ycommon cols(6) graphregion(color(white)) altshrink xsize(9.45) ysize(3.15)
-graph export figure_11.pdf, replace
+graph export figure_12.pdf, replace
 
 
 /* mean justice ratings for suffcientarians (strict) */
@@ -991,7 +991,7 @@ graph combine ///
    figure_tmp_priori.gph ///
    figure_tmp_utilit.gph, ///
    ycommon altshrink cols(2) graphregion(color(white))
-graph export figure_7.pdf, replace
+graph export figure_8.pdf, replace
 
 
 /* mean justice ratings in the global rating task (full sample) */
@@ -1064,8 +1064,8 @@ twoway (function y = 1 - exp(-((lambda1_0) * x)^(k1_0)), range(0 1000) lcolor(bl
        xtitle("Units of Living Space") ///
        ylabel(, angle(0)) ///
        ytitle("Justice Rating") ///
-       saving(figure_1, replace)
-graph export figure_8.pdf, replace
+       saving(figure_9, replace)
+graph export figure_9.pdf, replace
 
 
 /* mean justice ratings in the relative rating task (full sample) */
@@ -1105,8 +1105,8 @@ twoway (rcap hi_j low_j units if treatment == 1, lcolor(black)) ///
        xtitle("Units of Living Space") ///
        ylabel(, angle(0)) ///
        ytitle("Justice Rating") ///
-       saving(figure_2, replace)
-graph export figure_9.pdf, replace
+       saving(figure_10, replace)
+graph export figure_10.pdf, replace
 
 
 /* mean justice ratings in the global rating task (conditional sample) */
@@ -1176,8 +1176,8 @@ twoway (function y = 1 - exp(-((lambda1_0) * x)^(k1_0)), range(0 1000) lcolor(bl
        xtitle("Units of Living Space") ///
        ylabel(, angle(0)) ///
        ytitle("Justice Rating") ///
-       saving(figure_5, replace)
-graph export figure_12.pdf, replace
+       saving(figure_13, replace)
+graph export figure_13.pdf, replace
 
 
 /* mean justice ratings in the relative rating task (conditional sample) */
@@ -1214,8 +1214,8 @@ twoway (rcap hi_j low_j units if treatment == 1, lcolor(black)) ///
        xtitle("Units of Living Space") ///
        ylabel(, angle(0)) ///
        ytitle("Justice Rating") ///
-       saving(figure_6, replace)
-graph export figure_13.pdf, replace
+       saving(figure_14, replace)
+graph export figure_14.pdf, replace
 
 
 /* alternative thresholds for treatment 1 */
